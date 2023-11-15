@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+    background-color: var(--primary-color--400);
+}
+.header{
+    border:5px solid var(--primary-color--50);
+    box-shadow: 1px 1px 1px var(--primary-color--100);
+    border-radius: 1em;
+}

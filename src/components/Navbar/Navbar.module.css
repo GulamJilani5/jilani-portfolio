@@ -1,0 +1,33 @@
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: green; */
+    /* width: 60%; */
+}
+
+.navItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 60%; */
+    /* margin-right: 100px; */
+}
+
+.navItem{
+    list-style-type:none;
+    margin-right: 20px;
+}
+
+.navLink{
+    /* color: blue; */
+    text-decoration: none;
+    font-size: 1.2em;
+    /* color: var(--primary-color--500); */
+    color: var(--color-white);
+    padding: 1em;
+}
+
+.navLink:hover{
+    color: var(--primary-color--700);
+}

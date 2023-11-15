@@ -1,0 +1,12 @@
+.footer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 2em;
+}
+.footer {
+    background-color: var(--primary-color--400);
+    color: var(--color-white);
+    padding: .3em;
+    border-radius:1em;
+  }

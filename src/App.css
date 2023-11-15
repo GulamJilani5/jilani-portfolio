@@ -1,0 +1,84 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+#root{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik",sans-serif;
+  font-size: 16px;
+}
+
+body{
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  /* background-color: #fff; */
+  background-color: var(--primary-color--50);
+  
+}
+
+
+/* Primary color amber*/
+:root{
+  --primary-color--50:#fffbeb;
+  --primary-color--100: #fef3c7;
+  --primary-color--200: #fed7aa;
+  --primary-color--300: #fcd34d;
+  --primary-color--400: #fbbf24;
+  --primary-color--500: #f59e0b;
+  --primary-color--600: #d97706;
+  --primary-color--700: #b45309;
+  --primary-color--800: #92400e;
+  --primary-color--900: #78350f;
+
+  --color-white:#fff;
+}
